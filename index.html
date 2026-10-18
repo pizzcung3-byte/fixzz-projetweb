@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Fixzz Store | Akun Telegram, Panel Pterodactyl, Top Up Game, Nokos</title>
+  <meta name="description" content="Beli akun Telegram, channel, panel Pterodactyl, top up game, dan nokos. Deposit saldo, beli kapan saja.">
+  <meta name="theme-color" content="#0a0b0c">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='6' fill='%230a0b0c'/%3E%3Cpath d='M4 11.5 20 5l-3.2 14-4.6-3.6-2.4 2.3.3-4.2z' fill='%235ad6b0'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..700&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+  <script src="/boot.js"></script>
+</head>
+<body>
+  <!-- By @maklodevv -->
+  <div class="ambient" aria-hidden="true"><i class="orb orb-a"></i><i class="orb orb-b"></i><i class="orb orb-c"></i></div>
+
+  <section class="gate" id="gate" aria-label="Masuk atau daftar">
+    <div class="gate-in">
+      <figure class="gate-art"><img src="/assets/start.jpg" alt="" width="735" height="441"></figure>
+      <div class="gate-card">
+        <div class="gate-logo">
+          <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M2 11.5 22 3l-4.4 18-5.6-4.4-3 2.8.4-5.2z" fill="currentColor"/></svg>
+          <b data-site-name>Fixzz Store</b>
+        </div>
+        <h1>Masuk dulu, bro</h1>
+        <p class="muted">Akun tersimpan di database kami. Satu akun untuk deposit, belanja, dan chat dengan owner.</p>
+        <div class="gate-tabs" role="tablist" aria-label="Masuk atau daftar">
+          <button type="button" class="chip on" role="tab" data-gtab="login" aria-selected="true">Masuk</button>
+          <button type="button" class="chip" role="tab" data-gtab="register" aria-selected="false">Daftar</button>
+        </div>
+        <form id="gateForm" novalidate>
+          <div class="field"><label for="gUser">Username</label><input id="gUser" type="text" autocomplete="username" maxlength="20" autocapitalize="none" spellcheck="false"><span class="hint" id="gUserHint" hidden>3-20 karakter: huruf, angka, atau garis bawah.</span></div>
+          <div class="field"><label for="gPass">Password</label><input id="gPass" type="password" autocomplete="current-password" maxlength="100"><span class="hint" id="gPassHint" hidden>Minimal 6 karakter, jangan yang mudah ditebak.</span></div>
+          <p class="form-err" id="gErr" role="alert"></p>
+          <button class="btn big" type="submit" id="gSubmit">Masuk</button>
+        </form>
+        <div class="gate-contact">
+          <a class="btn sm ghost" data-tg href="https://t.me/police619" target="_blank" rel="noopener">Telegram <span data-tg-text>@police619</span></a>
+          <a class="btn sm ghost" data-wa hidden target="_blank" rel="noopener">WhatsApp <span data-wa-text></span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="progress" aria-hidden="true"></div>
+  <div class="plane-track" aria-hidden="true">
+    <i class="plane-fill"></i>
+    <svg class="plane" viewBox="0 0 24 24" width="24" height="24"><path d="M2 11.5 22 3l-4.4 18-5.6-4.4-3 2.8.4-5.2z" fill="currentColor"/></svg>
+  </div>
+
+  <header class="top" id="top">
+    <div class="wrap">
+      <div class="top-in">
+        <button class="burger" id="burger" type="button" aria-label="Buka menu" aria-expanded="false" aria-controls="drawer"><i></i><i></i><i></i><span class="dot" id="burgerDot" hidden></span></button>
+        <a class="logo" href="#/" aria-label="Beranda">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M2 11.5 22 3l-4.4 18-5.6-4.4-3 2.8.4-5.2z" fill="currentColor"/></svg>
+          <span data-site-name>Fixzz Store</span>
+        </a>
+        <nav class="top-nav" aria-label="Menu utama">
+          <a href="#akun">Akun Telegram</a>
+          <a href="#produk">Channel &amp; Panel</a>
+          <a href="#topup">Top Up</a>
+          <a href="#nokos">Nokos</a>
+          <a href="#cara">Cara order</a>
+        </nav>
+        <div class="top-user" id="navUser"></div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div id="landing">
+      <section class="hero" id="hero">
+        <div class="wrap hero-grid">
+          <div class="hero-copy" id="heroCopy">
+            <h1 data-tx="letters">Akun Telegram, panel, top up game, dan nokos.</h1>
+            <p class="lead" data-tx="words">Satu saldo untuk semuanya. Deposit sekali, belanja kapan saja, dan pesanan diserahkan lewat chat di website ini.</p>
+            <div class="hero-cta">
+              <a class="btn big" href="#akun">Mulai belanja</a>
+              <a class="btn big ghost" data-tg href="https://t.me/police619" target="_blank" rel="noopener">Chat <span data-tg-text>@police619</span></a>
+            </div>
+          </div>
+          <nav class="index" aria-label="Kategori">
+            <a class="index-row" href="#akun"><span class="ix">01</span><span class="it"><b>Akun Telegram</b><small>ID 1 sampai ID 8, kirim otomatis</small></span><em id="cnt-akun">...</em><svg class="arr" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></a>
+            <a class="index-row" href="#produk"><span class="ix">02</span><span class="it"><b>Channel &amp; Panel</b><small>Channel Telegram dan panel Pterodactyl</small></span><em id="cnt-panel">...</em><svg class="arr" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></a>
+            <a class="index-row" href="#topup"><span class="ix">03</span><span class="it"><b>Top Up Game</b><small>Isi ID, pilih nominal, bayar saldo</small></span><em id="cnt-game">...</em><svg class="arr" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></a>
+            <a class="index-row" href="#nokos"><span class="ix">04</span><span class="it"><b>Nokos</b><small>Nomor OTP per layanan dan negara</small></span><em id="cnt-nokos">...</em><svg class="arr" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></a>
+          </nav>
+        </div>
+      </section>
+
+      <div class="band" aria-hidden="true">
+        <div class="band-row" id="bandA"><span>Akun Telegram</span><span class="o">Top Up Game</span><span>Panel Pterodactyl</span><span class="o">Nokos</span><span>Channel Telegram</span><span class="o">Top Up Game</span><span>Panel Pterodactyl</span><span class="o">Nokos</span></div>
+        <div class="band-row rev" id="bandB"><span class="o">Deposit saldo</span><span>Chat dengan owner</span><span class="o">Profil sendiri</span><span>Deposit saldo</span><span class="o">Chat dengan owner</span><span>Profil sendiri</span><span class="o">Deposit saldo</span><span>Chat dengan owner</span></div>
+      </div>
+
+      <section class="sec" id="akun">
+        <div class="wrap">
+          <div class="sec-head">
+            <h2>Akun Telegram</h2>
+            <p class="muted">Pilih ID, pilih varian, bayar pakai saldo. Nomor, OTP, dan kode 2FA masuk otomatis. <span class="pill">Pratinjau tampilan</span></p>
+          </div>
+          <div class="mt" data-mt="akun"></div>
+          <div class="ids" id="idGrid"></div>
+          <div class="checkout" id="akunBox"></div>
+        </div>
+      </section>
+
+      <section class="sec" id="produk">
+        <div class="wrap">
+          <div class="sec-head">
+            <h2>Channel dan Panel</h2>
+            <p class="muted">Harga dalam Rupiah. Saldo terpotong otomatis saat kamu menekan Beli.</p>
+          </div>
+          <div class="mt" data-mt="produk"></div>
+          <div class="chips" id="filters" role="tablist" aria-label="Filter kategori">
+            <button class="chip on" data-filter="all" role="tab">Semua</button>
+            <button class="chip" data-filter="channel" role="tab">Channel Telegram</button>
+            <button class="chip" data-filter="panel" role="tab">Panel Pterodactyl</button>
+          </div>
+          <div class="grid" id="productGrid"><p class="muted">Memuat produk...</p></div>
+        </div>
+      </section>
+
+      <section class="sec" id="topup">
+        <div class="wrap">
+          <div class="sec-head">
+            <h2>Top Up Game</h2>
+            <p class="muted">Pilih game, isi ID, pilih nominal, bayar pakai saldo. <span class="pill">Pratinjau tampilan</span></p>
+          </div>
+          <div class="mt" data-mt="topup"></div>
+          <div class="games" id="gameGrid"></div>
+          <div class="checkout" id="checkout"></div>
+        </div>
+      </section>
+
+      <section class="sec nokos" id="nokos">
+        <div class="wrap">
+          <div class="sec-head">
+            <h2>Nokos</h2>
+            <p class="muted">Pilih layanan dan negara, ambil nomor, lalu kode OTP muncul di halaman ini. Kalau kode tidak masuk, saldo dikembalikan.</p>
+          </div>
+          <div class="mt" data-mt="nokos"></div>
+          <div class="nk" id="nokosBox"></div>
+        </div>
+      </section>
+
+      <section class="sec" id="cara">
+        <div class="wrap">
+          <div class="sec-head">
+            <h2>Tiga langkah dari daftar sampai terima barang</h2>
+          </div>
+          <ol class="steps3">
+            <li class="step"><span class="n">1</span><h3>Daftar</h3><p>Isi username dan password. Akunmu langsung aktif, tanpa verifikasi tambahan.</p></li>
+            <li class="step"><span class="n">2</span><h3>Deposit saldo</h3><p>Bayar lewat QRIS dan saldo masuk otomatis, atau transfer manual lalu tunggu owner mengonfirmasi.</p></li>
+            <li class="step"><span class="n">3</span><h3>Beli lalu chat</h3><p>Pilih produk, saldo terpotong, dan owner menyerahkan pesananmu lewat chat. Kalau batal, saldo dikembalikan.</p></li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="sec contact" id="kontak">
+        <div class="wrap contact-grid">
+          <div class="contact-main">
+            <p class="muted">Mau tanya dulu sebelum beli, atau butuh produk yang belum terdaftar?</p>
+            <a class="mega" data-tg href="https://t.me/police619" target="_blank" rel="noopener" data-tg-text>@police619</a>
+            <div class="row">
+              <a class="btn big ghost" data-wa hidden target="_blank" rel="noopener">WhatsApp <span data-wa-text></span></a>
+            </div>
+            <p class="muted">Balasan paling cepat lewat Telegram. Pelanggan terdaftar juga bisa chat dari halaman akunnya.</p>
+          </div>
+          <div class="profile-card" id="profileCard"></div>
+        </div>
+      </section>
+
+      <footer class="foot">
+        <div class="wrap"><span><span data-site-name>Fixzz Store</span> &copy; <span id="year"></span></span><a href="#/">Kembali ke atas</a></div>
+      </footer>
+    </div>
+
+    <div id="appView" class="wrap app" hidden></div>
+  </main>
+
+  <a class="tg-float" data-tg href="https://t.me/police619" target="_blank" rel="noopener" aria-label="Chat di Telegram">
+    <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M2 11.5 22 3l-4.4 18-5.6-4.4-3 2.8.4-5.2z" fill="currentColor"/></svg>
+    <span data-tg-text>@police619</span>
+  </a>
+
+  <div class="scrim" id="scrim"></div>
+  <aside class="drawer" id="drawer" aria-label="Menu" aria-hidden="true"></aside>
+
+  <button class="music" id="music" type="button" aria-label="Putar musik" aria-pressed="false" title="Musik">
+    <svg class="mi-note" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M9 18V6l10-2v12M9 18a3 3 0 11-6 0 3 3 0 016 0zM19 16a3 3 0 11-6 0 3 3 0 016 0z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <span class="eq" aria-hidden="true"><i></i><i></i><i></i></span>
+  </button>
+  <audio id="bgm" src="/assets/Fixzz_Store.mp3" loop preload="none"></audio>
+
+  <dialog id="formDialog"></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+
+  <script src="/qr.js"></script>
+  <script src="/app.js"></script>
+</body>
+</html>

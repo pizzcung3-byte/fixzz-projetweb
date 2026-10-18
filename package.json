@@ -1,0 +1,10 @@
+{
+  "name": "police619-store",
+  "version": "1.0.0",
+  "description": "Website jual beli akun Telegram, channel Telegram, dan panel Pterodactyl dengan saldo deposit.",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" },
+  "license": "UNLICENSED",
+  "private": true
+}
